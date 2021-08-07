@@ -1,0 +1,69 @@
+прямих переменных в джава скрипт нет
+массив не является отдельным типом данных
+вся информация полученная од пользователя приходит в формате String
+инкрементиция, декрементация (++,--): после значения - сначала возвращает старое значение а потом увеличивает, (integer++)
+				      пере значением - увеличивает и возвращает новое значение сразую (++integer)
+=== - строгое сравнение
+
+побитовые операторы - https://learn.javascript.ru/bitwise-operators
+
+обучение Git/GitHub:
+https://learngitbranching.js.org/?locale=ru_RU
+https://githowto.com/ru
+
+Git how to start in project:
+open console/terminal
+git init
+git config --lokal(global) user.name "Peter"
+git config --lokal(global) user.email examp@gmail.com
+
+git status - to check commits and added files
+git add -A - to add all files into the Git
+git add file.css/*.html - to add one or all files with .css or .html format
+git commit -a -m"first commit" - to add all files into the commit, m"" - message to say what are you change in this commit
+git log - to check list of commits what did you do
+git branch -M main - rename tree (exp. from master to main)
+
+git remote add origin(name) https://github.com/name_of_profile - to connetct remote github cloud with your project
+git push -u origin(same name) master - to add your project on the github cloud 
+git push - add new files to github
+
+git clone https://gihub.com/address_name project_2(name of folder) - to clone your project files on the another device
+git pull - to add all changed files to your project
+
+
+
+==========================
+
+const a  = prompt("Последний фильм?", ""),
+      b  = prompt("На сколько оцените фильм?", ""),
+      c  = prompt("Последний фильм?", ""),
+      d  = prompt("На сколько оцените фильм?", "");
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+запись в объект ключ = значение
+квадратние скобки для того что некоторие браузеры имеют баги и чтобы все правильно записалось
+если пользователь введет пробелы или какуюто дичь
+
+============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
