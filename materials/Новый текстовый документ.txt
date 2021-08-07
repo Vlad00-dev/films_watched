@@ -7,6 +7,15 @@
 
 побитовые операторы - https://learn.javascript.ru/bitwise-operators
 
+prompt - to ask customer something
+let age = prompt("How old are you?", "");
+
+const - no-edit
+let - editable
+======================================
+
+GITHUB
+
 обучение Git/GitHub:
 https://learngitbranching.js.org/?locale=ru_RU
 https://githowto.com/ru
@@ -24,7 +33,7 @@ git commit -a -m"first commit" - to add all files into the commit, m"" - message
 git log - to check list of commits what did you do
 git branch -M main - rename tree (exp. from master to main)
 
-git remote add origin(name) https://github.com/name_of_profile - to connetct remote github cloud with your project
+git remote add origin(name) https://github.com/name_of_profile - to connect remote github cloud with your project
 git push -u origin(same name) master - to add your project on the github cloud 
 git push - add new files to github
 
@@ -34,6 +43,8 @@ git pull - to add all changed files to your project
 
 
 ==========================
+
+OBJECT key=value
 
 const a  = prompt("Последний фильм?", ""),
       b  = prompt("На сколько оцените фильм?", ""),
@@ -49,10 +60,24 @@ personalMovieDB.movies[c] = d;
 
 ============================
 
+TЕРНАРНbIЙ ОПЕРАТОР ЗАМЕННИК ДЛЯ IF
+
+(num === 50) ? console.log('value_if_true') : console.log('value_if_false');
+check if num = 50 / opertator ? / value true / value false
 
 
+=======================
 
+SWITCH
 
+switch(value) {
+	case equal_value:
+		do_something_if_true;
+		break;
+	default:
+		do_something;
+
+=========================
 
 
 
